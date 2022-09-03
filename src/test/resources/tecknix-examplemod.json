@@ -1,0 +1,43 @@
+{
+  "config_version": 1.0,
+  "modules": {
+    "test_module": {
+      "display_name": "Example Mod",
+      "always_enabled": true,
+      "mod_author": "Tecknix Software",
+      "mod_gameversion": "1.8.9",
+      "config_listeners": [
+        "com.example.examplemod.listener.Listener1"
+      ],
+      "settings": {
+        "test_setting_boolean": {
+          "setting_name": "Test Boolean Setting",
+          "default_value": true,
+          "setting_type": "BOOLEAN"
+        },
+        "test_setting_slider": {
+          "setting_name": "Test Slider Setting",
+          "default_value": 5,
+          "setting_type": "SLIDER",
+          "setting_min": 1,
+          "setting_max": 10
+        },
+        "test_setting_mode": {
+          "setting_name": "Test Mode Setting",
+          "setting_type": "MODE",
+          "setting_modes": [
+            "Mode1",
+            "Mode2",
+            "Mode3",
+            "Mode4"
+          ]
+        },
+        "test_setting_color": {
+          "setting_name": "Test Color Setting",
+          "default_value": -1,
+          "setting_type": "COLOR"
+        }
+      }
+    }
+  }
+}
