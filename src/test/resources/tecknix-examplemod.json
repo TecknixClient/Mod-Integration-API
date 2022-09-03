@@ -3,7 +3,7 @@
   "modules": {
     "test_module": {
       "display_name": "Example Mod",
-      "always_enabled": true,
+      "default_enabled": true,
       "mod_author": "Tecknix Software",
       "mod_gameversion": "1.8.9",
       "config_listeners": [
